@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.logo{
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.logo img{
+    width: 33%;
+    border: 3px solid black;
+    border-radius: 50px
+
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:sticky;
+    top: 0;
+    cursor: ponter;
+
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nav-list li{
+    list-style: none;
+    padding:26px 30px;
+    
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Caveat', cursive;
+    font-size: 20px;
+
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav{
+    width: 47%;
+    text-align: right;
+
+
+
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+}
+.background{
+    background: rgba(0, 0, 0,0.7) url('../img/nuts.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 75%;
+}
+.firsthalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Satisfy', cursive;
+
+}
+
+.secondhalf{
+    width:30%;
+
+}
+
+.secondhalf img{
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.text-big{
+    font-size: 38px;
+    text-align: center;
+
+}
+
+.text-small{
+    font-size: 18px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 8px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+.btn-dark{
+    color: black;
+    border:2px solid black;
+}
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+.section{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width:80%;
+    margin:auto;
+    font-family: 'Caveat', cursive;
+}
+.section-left{
+    flex-direction: row-reverse;
+    font-family: 'Caveat', cursive;
+
+
+}
+.paras{
+    padding: 0px 65px;
+}
+.sectionTag{
+    font-family:'Caveat', cursive;
+}
+.thumbnail img{
+    border: 4px solid black;
+    border-radius: 26px;
+
+}
+.Contact{
+    background-color: grey;
+    height: 670px;
+}
+.text-center{
+    text-align: center;
+    padding: 7px;
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+.form{
+    max-width: 500px;
+    margin: 5px auto;
+}
+.form-input{
+   margin: 7px 0;
+   padding: 5px 10px;
+   width: 100%;
+   font-size: 19px;
+   border: 3px solid grey;
+   border-radius: 6px;
+   font-family:'Caveat', cursive;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+
+
+}
